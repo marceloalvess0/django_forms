@@ -10,3 +10,11 @@
 </head>
 <body>
     <section class="container mt-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{% url 'passagens'%}">Passagem</a>
+        </nav>
+
+        {% block content %}{% endblock  %}
+    </section>
+</body>
+</html>
